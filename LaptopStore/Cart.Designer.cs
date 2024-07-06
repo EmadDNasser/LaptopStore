@@ -32,7 +32,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.LblTotalPrice = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.progressBarEmail = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // panel2
@@ -78,19 +77,11 @@
             this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
             this.button1.MouseHover += new System.EventHandler(this.button1_MouseHover);
             // 
-            // progressBarEmail
-            // 
-            this.progressBarEmail.Location = new System.Drawing.Point(67, 428);
-            this.progressBarEmail.Name = "progressBarEmail";
-            this.progressBarEmail.Size = new System.Drawing.Size(100, 23);
-            this.progressBarEmail.TabIndex = 4;
-            // 
             // Cart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(728, 561);
-            this.Controls.Add(this.progressBarEmail);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.LblTotalPrice);
             this.Controls.Add(this.label1);
@@ -111,6 +102,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         public System.Windows.Forms.Label LblTotalPrice;
-        private System.Windows.Forms.ProgressBar progressBarEmail;
     }
 }

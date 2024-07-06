@@ -8,8 +8,7 @@ namespace LaptopStore
     public partial class Cart : Form
     {
         private MainForm mainForm;
-        private EmailService emailService;
-
+       
         public Cart(MainForm mainFormInstance)
         {
             InitializeComponent();
@@ -69,7 +68,7 @@ namespace LaptopStore
                         }
                     }
 
-                    //EmailService emailService = new EmailService();
+                    EmailService emailService = new EmailService();
                     emailService.Subscribe(order);
 
                     order.CreateOrder(order);

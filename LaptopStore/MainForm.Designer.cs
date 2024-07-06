@@ -34,7 +34,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.LblCart = new System.Windows.Forms.Label();
             this.btnItemCount = new System.Windows.Forms.Button();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // btnSignIn
@@ -107,13 +106,6 @@
             this.btnItemCount.UseVisualStyleBackColor = false;
             this.btnItemCount.Click += new System.EventHandler(this.ItemCount_Click);
             // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(327, 10);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(194, 23);
-            this.progressBar1.TabIndex = 8;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -121,7 +113,6 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 611);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.LblCart);
             this.Controls.Add(this.btnItemCount);
             this.Controls.Add(this.panel1);
@@ -146,6 +137,5 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label LblCart;
         public System.Windows.Forms.Button btnItemCount;
-        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
