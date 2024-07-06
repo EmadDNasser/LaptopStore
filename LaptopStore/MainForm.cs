@@ -9,6 +9,7 @@ namespace LaptopStore
 
     public partial class MainForm : Form
     {
+
         const string filePath = @"D:\Visual Studio\repos\LaptopStore\LaptopStore\Resources\data\LaptopData.txt"; // Replace with your actual path
 
 
@@ -34,6 +35,8 @@ namespace LaptopStore
 
             List<LaptopItem> laptopItems = LoadLaptopDataFromFile(filePath);
             GenerateLaptopItems(laptopItems);
+
+           
         }
 
         private void SubscribeEmailID(object sender, string _emailID)

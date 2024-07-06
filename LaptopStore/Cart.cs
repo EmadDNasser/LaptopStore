@@ -8,16 +8,15 @@ namespace LaptopStore
     public partial class Cart : Form
     {
         private MainForm mainForm;
-       
+
         public Cart(MainForm mainFormInstance)
         {
             InitializeComponent();
-            mainForm = mainFormInstance;            
+            mainForm = mainFormInstance;
         }
 
         public void UpdateTotalPrice()
         {
-
             double totalPrice = 0;
 
             foreach (Control control in panel2.Controls)
@@ -37,23 +36,23 @@ namespace LaptopStore
             {
                 MessageBox.Show("Please Log in!");
             }
-
             else
             {
-                DialogResult result = MessageBox.Show("Are you sure?", "Creat order", MessageBoxButtons.YesNo);
+                DialogResult result = MessageBox.Show("Are you sure?", "Create order", MessageBoxButtons.YesNo);
 
                 if (result == DialogResult.Yes)
                 {
                     Order order = new Order
-                        (
-                             "LS0000",
-                             mainForm.lblEmailID.Text,
-                             DateTime.Now,
-                             "Dubai Sports City, Stadium Point, 1604",
-                             OrderStatus.Shipped,
-                             "VISA Card",
-                             "TLS0000"
-                        );
+                    (
+                        "LS0000",
+                        mainForm.lblEmailID.Text,
+                        DateTime.Now,
+                        "Dubai Sports City, Stadium Point, 1604",
+                        OrderStatus.Shipped,
+                        "VISA Card",
+                        "TLS0000"
+                    );
+
                     foreach (Control control in panel2.Controls)
                     {
                         if (control is CartItem cartItem)
@@ -68,14 +67,13 @@ namespace LaptopStore
                         }
                     }
 
-                    EmailService emailService = new EmailService();
+                    var emailService = new EmailService();
                     emailService.Subscribe(order);
 
                     order.CreateOrder(order);
 
-
-                    mainForm.btnItemCount.Enabled = false; // Make the cart btn disabled.
-                    mainForm.btnItemCount.Text = string.Empty; // Reset the items count lable.
+                    mainForm.btnItemCount.Enabled = false; // Make the cart button disabled.
+                    mainForm.btnItemCount.Text = string.Empty; // Reset the items count label.
                     mainForm.count = 0; // Reset the items count in the cart.
                     mainForm.laptopDetails1.Clear(); // Clear the List
                     panel2.Controls.Clear(); // Remove all cart items

@@ -47,6 +47,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkRed;
             this.label1.Location = new System.Drawing.Point(200, 428);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 27);
@@ -57,7 +58,8 @@
             // 
             this.LblTotalPrice.AutoSize = true;
             this.LblTotalPrice.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblTotalPrice.Location = new System.Drawing.Point(325, 423);
+            this.LblTotalPrice.ForeColor = System.Drawing.Color.Sienna;
+            this.LblTotalPrice.Location = new System.Drawing.Point(274, 423);
             this.LblTotalPrice.Name = "LblTotalPrice";
             this.LblTotalPrice.Size = new System.Drawing.Size(0, 31);
             this.LblTotalPrice.TabIndex = 2;
