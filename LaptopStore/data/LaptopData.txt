@@ -1,0 +1,12 @@
+0#Microsoft Surface Laptop 5 (2022) – 12th Gen#img\Surface.jpeg
+1#Microsoft Surface Laptop 5 (2022)#img\Surface1.jpeg
+2#Microsoft Surface Pro 9 (2022)#img\Surface2.jpeg
+3#Microsoft Surface Laptop Studio (2021)#img\Surface3.jpeg
+4#Apple MacBook Air 15-inch (2024)#img\Apple1.jpeg
+5#Apple MacBook Air 13-inch (2020)#img\Apple2.jpeg
+6#Apple MacBook Air 13.6-inch (2022)#img\Apple3.jpeg
+7#Apple MacBook Air 13.6-inch (2022)#img\Apple4.jpeg
+8#HP (2023) Laptop#img\HP.jpeg
+9#HP ProBook (2020) Laptop#img\HP1.jpeg
+10#HP Zbook 16 Firefly G9 (2022) Laptop#img\HP2.jpeg
+11#HP (2022) All-in-One Desktop#img\HP3.jpeg
