@@ -26,7 +26,7 @@ namespace LaptopStore
             public string Picture;
         }
 
-        const string filePath = @"data\LaptopDetails.txt"; // Replace with your actual path
+        const string filePath = @"D:\Visual Studio\repos\LaptopStore\LaptopStore\Resources\data\LaptopDetails.txt"; // Replace with your actual path
         
         private List<LaptopData> laptopDetails; // Creat an object of a struct.
         

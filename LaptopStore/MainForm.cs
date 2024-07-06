@@ -9,7 +9,8 @@ namespace LaptopStore
 
     public partial class MainForm : Form
     {
-        const string filePath = @"data\LaptopData.txt"; // Replace with your actual path
+        const string filePath = @"D:\Visual Studio\repos\LaptopStore\LaptopStore\Resources\data\LaptopData.txt"; // Replace with your actual path
+
 
         // Delegate definition
         public delegate void PassDataDelegate(string LaptopInfo, string LaptopPrice, Image LaptopImage, int _Count);

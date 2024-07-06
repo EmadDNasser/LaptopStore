@@ -63,19 +63,9 @@ namespace LaptopStore.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icon_cart {
+        internal static System.Drawing.Bitmap icons_301 {
             get {
-                object obj = ResourceManager.GetObject("icon-cart", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons_30 {
-            get {
-                object obj = ResourceManager.GetObject("icons-30", resourceCulture);
+                object obj = ResourceManager.GetObject("icons-301", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

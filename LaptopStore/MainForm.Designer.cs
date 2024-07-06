@@ -98,7 +98,6 @@
             this.btnItemCount.FlatAppearance.BorderSize = 0;
             this.btnItemCount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnItemCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnItemCount.Image = global::LaptopStore.Properties.Resources.icons_30;
             this.btnItemCount.Location = new System.Drawing.Point(797, 3);
             this.btnItemCount.Name = "btnItemCount";
             this.btnItemCount.Size = new System.Drawing.Size(38, 33);
